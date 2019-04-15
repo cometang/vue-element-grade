@@ -1,5 +1,12 @@
 # course
 
+##框架简介
+
+#### 底层架构：vue+vue-router+vuex+elementUI+vueCLI3.x
+#### 适用于快速生成任何多级权限的管理系统界面以及初始的交互系统，上手十分简单，初学者秒懂的基础框架结构
+
+
+
 ## Project setup
 ```
 npm install
