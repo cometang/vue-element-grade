@@ -20,7 +20,7 @@
                         </el-menu-item>
                         <el-submenu :index="''+key"  v-if="item.child.length >0" >
                             <template slot="title">
-                                <i class="el-icon-location"></i>
+                                <i class="iconfont icon-box" :class="item.icon"></i>
                                 <span>{{item.title}}</span>
                             </template>
                                 <el-menu-item :index="key+'-'+key1" v-for="(item1,key1) in item.child" @click="navActive1(key,item1,key1)" :key="key1">{{item1.title}}</el-menu-item>
